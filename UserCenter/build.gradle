@@ -50,8 +50,10 @@ dependencies {
     implementation project(path: ':Provider')
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
     implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation project(path: ':BaseLibrary')
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
+    implementation "io.reactivex:rxkotlin:$rx_kotlin_version"
+    implementation "io.reactivex:rxandroid:$rx_kotlin_version"
 }
